@@ -66,14 +66,37 @@ Y= A⊕B
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+ Developed by: RegisterNumber: Anu Nivitha U
+ ```
+ module LOGIC_GATES(a,b,andgate,orgate,notgate,nandgate,norgate,xorgate,xnorgate);
+input a,b;
+output andgate,orgate,notgate,nandgate,norgate,xorgate,xnorgate;
+and(andgate,a,b);
+or(orgate,a,b);
+not(notgate,a);
+nand(nandgate,a,b);
+nor(norgate,a,b);
+xor(xorgate,a,b);
+xnor(xnorgate,a,b);
+endmodule
+```
  
 **Logic symbol & Truthtable**
+<img width="382" alt="Screenshot 2025-05-31 at 9 36 00 PM" src="https://github.com/user-attachments/assets/eacfe05c-be6d-4fab-a781-b8251fb8a623" />
+<img width="514" alt="Screenshot 2025-05-31 at 9 36 07 PM" src="https://github.com/user-attachments/assets/80be0351-de61-4228-a667-8d48a1564fb3" />
+
+
 
 **RTL realization Output:** 
 
 **RTL**
+<img width="309" alt="Screenshot 2025-05-31 at 9 36 15 PM" src="https://github.com/user-attachments/assets/5e41e488-6ad9-40e1-9936-05dcab35b2e2" />
+
+**Output**
+<img width="705" alt="Screenshot 2025-05-31 at 9 36 22 PM" src="https://github.com/user-attachments/assets/546c7b89-8799-4904-a85d-21455988b03b" />
+
+
 
 **Result:**
-
+Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
 
